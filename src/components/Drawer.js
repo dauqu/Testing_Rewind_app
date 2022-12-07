@@ -32,7 +32,7 @@ import Join_Exsit_Class_login from './Join_Exsit_Class_login';
 const stack = createNativeStackNavigator();
 const Drawerr = createDrawerNavigator();
 const Drawer = () => {
-  const [islogin, setIslogin] = useState(false);
+  const [islogin, setIslogin] = useState(true);
   return (
     <NavigationContainer>
       {islogin ? (
